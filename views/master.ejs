@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raise Fund</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./scripts/web3.js"></script>
+    <!-- process must be under jquery adn web3-->
+    <script src="./js/process.js"></script> 
+</head>
+<body>
+    <div id="wrapper">
+        <div id="info">
+            <button id="btn_ConnectMM">Connect MetaMask</button>
+            <h3 id="currentAddress">---</h3>
+        </div>
+        <div id="install">
+            Click <a target="_blank" href="https://metamask.io/download/">here</a> to install MetaMask
+        </div>
+        <div id="inputForm">
+            <input type="text" id="txt_HoTen" placeholder="Name" />
+            <input type="text" id="txt_SoTien" placeholder="0.0 ETH" />
+            <input type="button" id="btn_Invest" value="Send" />
+            <div id="notice"></div>
+        </div>
+        <div id="unclockForm">
+            <input type="text" id="txt_Account" placeholder="Account receive" />
+            <input type="button" id="btn_Unclock" value="Send" />
+            <div id="notice2"></div>
+        </div>
+        <div id="listInvest">
+            <h2 id="tongTien">---</h2>
+            <table width="500px" id="dsDauTu" border="1px">
+                <tr>
+                    <td> Name </td>
+                    <td> Account </td>
+                    <td> ETH </td>
+                </tr>
+            </table>
+        </div>
+    </div>    
+</body>
+</html>

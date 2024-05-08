@@ -1,0 +1,3 @@
+body{background-color: bisque;}
+#wrapper{width: 80%; margin: auto;}
+#info, #inputForm, #unclockForm, #listInvest, #install{width: 100%; min-height: 50px; background-color: whitesmoke; margin: 5px; text-align: center; padding: 10px;}
